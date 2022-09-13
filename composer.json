@@ -1,0 +1,17 @@
+{
+    "name": "best4udevelopment/sepp-test",
+    "description": "SEPP test task",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "require": {
+        "aoepeople/composer-installers": "*",
+        "openmage/magento-lts": "^19.4.0",
+        "colinmollenhour/modman": "dev-master"
+    },
+    "config": {
+        "bin-dir": "tools",
+        "allow-plugins": {
+            "aoepeople/composer-installers": true
+        }
+    }
+}

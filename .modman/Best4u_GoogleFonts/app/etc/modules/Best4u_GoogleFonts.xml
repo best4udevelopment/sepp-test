@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Best4u. All rights reserved.
+ */
+-->
+<config>
+    <modules>
+        <Best4u_GoogleFonts>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Best4u_GoogleFonts>
+    </modules>
+</config>

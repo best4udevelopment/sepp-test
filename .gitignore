@@ -1,0 +1,13 @@
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+/.vscode
+atlassian*
+/nbproject
+/htdocs
+/tools
+/vendor/*
+!/vendor/.htaccess
+.DS_Store

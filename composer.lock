@@ -1,0 +1,173 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5c85f81735df2c319ab3025ec203488e",
+    "packages": [
+        {
+            "name": "aoepeople/composer-installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/composer-installers.git",
+                "reference": "6c345190669b67b7ffd91eb48109d71c16bec6b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/composer-installers/zipball/6c345190669b67b7ffd91eb48109d71c16bec6b1",
+                "reference": "6c345190669b67b7ffd91eb48109d71c16bec6b1",
+                "shasum": ""
+            },
+            "replace": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "default-branch": true,
+            "type": "composer-installer",
+            "extra": {
+                "class": "Aoepeople\\ComposerInstallers\\Installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Aoepeople\\ComposerInstallers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca",
+                    "email": "{firstname}.{lastname}@aoe.com"
+                }
+            ],
+            "description": "A simple composer installer",
+            "keywords": [
+                "installer",
+                "magento",
+                "modman"
+            ],
+            "support": {
+                "issues": "https://github.com/AOEpeople/composer-installers/issues",
+                "source": "https://github.com/AOEpeople/composer-installers/tree/v0.0.4"
+            },
+            "time": "2016-03-14T17:05:16+00:00"
+        },
+        {
+            "name": "colinmollenhour/modman",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colinmollenhour/modman.git",
+                "reference": "d90fa38889ed40b6754baf24ad5caf4581bfd479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colinmollenhour/modman/zipball/d90fa38889ed40b6754baf24ad5caf4581bfd479",
+                "reference": "d90fa38889ed40b6754baf24ad5caf4581bfd479",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "bin": [
+                "modman"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Mollenhour"
+                }
+            ],
+            "description": "Module Manager",
+            "homepage": "https://github.com/colinmollenhour/modman",
+            "support": {
+                "issues": "https://github.com/colinmollenhour/modman/issues",
+                "source": "https://github.com/colinmollenhour/modman/tree/1.14"
+            },
+            "time": "2021-02-15T22:55:00+00:00"
+        },
+        {
+            "name": "openmage/magento-lts",
+            "version": "v19.4.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpenMage/magento-lts.git",
+                "reference": "0d7b9cada55520137004c949eab78be95221507d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenMage/magento-lts/zipball/0d7b9cada55520137004c949eab78be95221507d",
+                "reference": "0d7b9cada55520137004c949eab78be95221507d",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "^3.1 || ^2.1 || ^4.0",
+                "php": ">=7.0 <7.5 || >=8.0 <8.1"
+            },
+            "require-dev": {
+                "macopedia/phpstan-magento1": "^1.0.4",
+                "phpstan/phpstan": "^1.4.6"
+            },
+            "type": "magento-source",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.9.4.x-dev"
+                },
+                "magento-root-dir": "root"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Saferite",
+                    "email": "lee.saferite@openmage.org",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Daniel Fahlke aka Flyingmana",
+                    "email": "flyingmana@googlemail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "David Robinson",
+                    "email": "david.robinson@aoe.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Tymoteusz Motylewski",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Sven Reichel",
+                    "email": "github-sr@hotmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A fork of Magento-1 that is accepting bug fixes (backward compatible, drop in replacement for official Magento)",
+            "support": {
+                "issues": "https://github.com/OpenMage/magento-lts/issues",
+                "source": "https://github.com/OpenMage/magento-lts/tree/v19.4.16"
+            },
+            "time": "2022-05-17T08:42:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "colinmollenhour/modman": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

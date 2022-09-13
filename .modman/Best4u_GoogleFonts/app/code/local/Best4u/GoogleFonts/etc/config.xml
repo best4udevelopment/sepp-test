@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Best4u. All rights reserved.
+ */
+-->
+<config>
+    <modules>
+        <Best4u_GoogleFonts>
+            <version>1.0.0</version>
+        </Best4u_GoogleFonts>
+    </modules>
+    <global>
+        <helpers>
+            <googlefonts>
+                <class>Best4u_GoogleFonts_Helper</class>
+            </googlefonts>
+        </helpers>
+        <models>
+            <googlefonts>
+                <class>Best4u_GoogleFonts_Model</class>
+            </googlefonts>
+        </models>
+        <blocks>
+            <googlefonts>
+                <class>Best4u_GoogleFonts_Block</class>
+            </googlefonts>
+        </blocks>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Best4u_GoogleFonts>
+                    <files>
+                        <default>Best4u_GoogleFonts.csv</default>
+                    </files>
+                </Best4u_GoogleFonts>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <googlefonts>
+                    <file>best4u/googlefonts.xml</file>
+                </googlefonts>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <design>
+            <googlefonts>
+                <active>0</active>
+            </googlefonts>
+        </design>
+    </default>
+</config>
